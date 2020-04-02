@@ -108,7 +108,7 @@ public class HashTest {
 			String word = null;
 			int hashcode;
 			Scanner sc = null;
-			File file = new File("/home/JHyeh/cs321/labs/lab3/files/word-list/");
+			File file = new File("word-count.txt");
 			sc = new Scanner(file);
 			word = sc.next();
 			while (true) {
